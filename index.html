@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firstflight Travels</title>
+    <link rel="icon" href="./files/logo.png">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   
+</head>
+<body>
+
+<!-- Background Video & Header -->
+
+    <div class="banner">
+        <video src="./files/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
+    
+    <!-- Header -->
+
+    <div class="content" id="home" style=""> 
+        <nav style="background-color:white;">
+            <img src="./files/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
+              <div class="search-box">
+        <input type="text" placeholder="Search destinations or activities">
+    </div>
+            <ul class="navbar">
+                <li>
+                    <a href="#home" style="color:black">Home</a>
+                    <a href="./locations.html" style="color:black">Destinations</a>
+                    <a href="#package"style="color:black">Activities</a>
+                    <a href="./register.html"style="color:black">Sign up</a>
+                    <a href="./contact.html"style="color:black" >Login</a>
+                </li>
+            </ul>
+        </nav>
+ 
+        <div class="title">
+            <h1>Your Destiny</h1>
+                        <h1>Your World</h1>
+
+        <h2 class="search-title" style="color:white">Tìm Chuyến Du Lịch Hoàn Hảo Của Bạn</h2>
+<div class="search-container">
+        <form class="search-form">
+            <div class="form-group">
+                <label for="destination">Điểm Đến</label>
+                <input type="text" id="destination" class="form-control" placeholder="Bạn muốn đi đâu?">
+            </div>
+            
+            <div class="form-group">
+                <label for="check-in">Ngày Đi</label>
+                <input type="date" id="check-in" class="form-control" value="2023-02-05">
+            </div>
+            
+            <div class="form-group">
+                <label for="check-out">Ngày Về</label>
+                <input type="date" id="check-out" class="form-control" value="2023-03-14">
+            </div>
+            
+            <div class="form-group">
+                <label for="tour-type">Loại Tour</label>
+                <select id="tour-type" class="form-control">
+                    <option value="all">Tất Cả Các Tour</option>
+                    <option value="adventure">Du Lịch Mạo Hiểm</option>
+                    <option value="cultural">Du Lịch Văn Hóa</option>
+                    <option value="beach">Du Lịch Biển</option>
+                    <option value="family">Du Lịch Gia Đình</option>
+                    <option value="luxury">Du Lịch Cao Cấp</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="search-button">
+                <i class="fas fa-search"></i> Tìm Kiếm
+            </button>
+        </form>
+    </div>
+        </div>
+        </div>
+    </div>
+
+<!-- Services -->
+
+<section class="container">
+    <div class="text">
+        <h2>Các lợi ích </h2>
+    </div>
+    <div class="rowitems">
+        <div class="container-box">
+        <div class="container-image">
+           <img src="./files/1a.jpg" alt="Flight Services">
+        </div>
+            <h4>Thuận Tiện</h4>
+            <p>Bạn được quyền tự mình quyết định chuyến đi,hủy hoặc đi tiếp là dựa vào bản thân bạn.</p>
+        </div>
+    
+        <div class="container-box">
+        <div class="container-image">
+           <img src="./files/2a.jpg" alt="Food Services">
+        </div>
+            <h4>Giá cả hợp lý</h4>
+            <p>Đi du lich mà lo về chi phí ? Đừng lo đã có các membership và discount,hãy rủ bạn bè của mình đi cùng!   </p>
+        </div>
+
+        <div class="container-box">
+        <div class="container-image">
+            <img src="./files/3a.jpg" alt="Travel Services">
+        </div>
+            <h4>Chất lượng</h4>
+            <p>Chất lượng là trên hết đẩy sự thoải mái của bạn lên hàng đầu.</p>
+        </div>
+
+        <div class="container-box">
+        <div class="container-image">
+            <img src="./files/4a.jpg" alt="Hotel Services">
+        </div>
+            <h4>Sự hỗ trợ</h4>
+            <p>Không biết bắt đầu từ đâu ? Đã có hệ thống của chúng tôi lo.</p>
+        </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+<!-- Locations -->
+
+<section class="locations" id="locations">
+    <div class="package-title">
+        <h2>Các điểm du lịch đang trending</h2>
+    </div>
+
+    <div style="display:flex; gap:25px; flex-wrap:wrap; align-items:center;">
+
+        <a href="./locations.html#kashmir" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l1.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">India</h5>
+                <p style="margin:0;">Kashmir</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#istanbul" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l2.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">Turkey</h5>
+                <p style="margin:0;">Istanbul</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#paris" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l3.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">France</h5>
+                <p style="margin:0;">Paris</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#bali" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l4.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">Indonesia</h5>
+                <p style="margin:0;">Bali</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#dubai" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l5.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">UAE</h5>
+                <p style="margin:0;">Dubai</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#geneva" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l6.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">Switzerland</h5>
+                <p style="margin:0;">Geneva</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#port-blair" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l7.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">Andaman</h5>
+                <p style="margin:0;">Port Blair</p>
+            </div>
+        </a>
+
+      
+    </div>
+</section>
+
+
+<!-- Packages -->
+
+<section class="top-trending">
+    <div class="tt-header">
+        <h2>Top Trending</h2>
+        
+    </div>
+
+    <div class="tt-list">
+
+        <div class="tt-card">
+            <img src="./files/l1.jpg" alt="">
+            <div class="tt-info">
+                <span class="tt-location">Ha Noi, VietNam</span>
+                <h3 class="tt-title">The Grand K</h3>
+                <span class="tt-rating">4.8 (243)</span>
+
+                <div class="tt-bottom">
+                    <span class="tt-days">4 days</span>
+                    <span class="tt-price">From $189.25</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tt-card">
+            <img src="./files/l2.jpg" alt="">
+            <div class="tt-info">
+                <span class="tt-location">Da Nang, VietNam</span>
+                <h3 class="tt-title">The Canvas</h3>
+                <span class="tt-rating">4.8 (243)</span>
+
+                <div class="tt-bottom">
+                    <span class="tt-days">4 days</span>
+                    <span class="tt-price">From $225</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tt-card">
+            <img src="./files/l3.jpg" alt="">
+            <div class="tt-info">
+                <span class="tt-location">Quang Binh,VietNam</span>
+                <h3 class="tt-title">Hang Son Doong</h3>
+                <span class="tt-rating">4.8 (243)</span>
+
+                <div class="tt-bottom">
+                    <span class="tt-days">4 days</span>
+                    <span class="tt-price">From $943</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tt-card">
+            <img src="./files/l4.jpg" alt="">
+            <div class="tt-info">
+                <span class="tt-location">Hoi An,VietNam</span>
+                <h3 class="tt-title">The Grand Sunrise</h3>
+                <span class="tt-rating">4.8 (243)</span>
+
+                <div class="tt-bottom">
+                    <span class="tt-days">4 days</span>
+                    <span class="tt-price">From $771</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Sale Banner -->
+<section class="sale-banner">
+    <div class="sale-content">
+        <h2> SALE DU LỊCH CỰC SỐC </h2>
+        <p>Ưu đãi đến <span>30%</span> cho các tour nổi bật tháng này!</p>
+        <a href="#package" class="sale-btn">Xem ngay</a>
+    </div>
+</section>
+<section class="reviews">
+    <h2 class="review-title">Review từ khách hàng</h2>
+
+    <div class="slider">
+
+        <!-- Radio Buttons -->
+        <input type="radio" name="review" id="r1" checked>
+        <input type="radio" name="review" id="r2">
+        <input type="radio" name="review" id="r3">
+
+        <!-- Slides -->
+        <div class="slides">
+
+            <div class="review-item" id="rev1">
+                <img src="./files/khach.png" class="review-avatar">
+                <h3>Nguyễn Hoàng Anh</h3>
+                <p class="review-text">“Dịch vụ tuyệt vời! Tổ chức tour chuyên nghiệp, rất đáng tiền.”</p>
+                <div class="rating">★★★★★</div>
+            </div>
+
+            <div class="review-item" id="rev2">
+                <img src="./files/khach.png" class="review-avatar">
+                <h3>Trần Gia Huy</h3>
+                <p class="review-text">“Tour hợp túi tiền, chăm sóc khách hàng rất tốt.”</p>
+                <div class="rating">★★★★☆</div>
+            </div>
+
+            <div class="review-item" id="rev3">
+                <img src="./files/khach.png" class="review-avatar">
+                <h3>Lê Khánh Linh</h3>
+                <p class="review-text">“Chuyến đi châu Âu tuyệt đẹp! Mình sẽ quay lại.”</p>
+                <div class="rating">★★★★★</div>
+            </div>
+
+        </div>
+
+        <!-- Pagination Dashes -->
+        <div class="navigation">
+            <label for="r1">—</label>
+            <label for="r2">—</label>
+            <label for="r3">—</label>
+        </div>
+
+    </div>
+</section>
+<section class="promo-banner">
+    <div class="promo-overlay">
+        <div class="promo-container">
+            <div class="promo-text">
+                <h2>Get <span>5% off</span> your 1st app booking</h2>
+                <p>Booking's better on the app. Use promo code <strong>"TDTU"</strong> to save!</p>
+                <div class="promo-form">
+                    <input type="email" placeholder="Email của bạn" class="promo-input">
+                    <button class="promo-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+
+<section class="newsletter">
+    <div class="newstext">
+<section class="newsletter">
+    <div class="newstext">
+        <h2>Báo Du lịch</h2>
+        <p>Cập nhật những bài viết mới nhất về xu hướng và điểm đến hấp dẫn.</p>
+    </div>
+
+    <div class="news-list">
+
+        <div class="news-item">
+            <img src="./files/bao1.png" alt="News Image">
+            <h3>Top 5 bãi biển đẹp nhất châu Á năm 2024</h3>
+            <p>Khám phá những bãi biển tuyệt đẹp, nước trong xanh, cát trắng trải dài phù hợp cho mùa hè sắp tới.</p>
+            <a href="#" class="read-btn">Đọc bài →</a>
+        </div>
+
+        <div class="news-item">
+            <img src="./files/bao2.png" alt="News Image">
+            <h3>Những địa điểm du lịch mùa đông hot nhất</h3>
+            <p>Nếu bạn thích không khí lạnh, đây là những điểm đến lý tưởng trong mùa đông mà bạn không nên bỏ lỡ.</p>
+            <a href="#" class="read-btn">Đọc bài →</a>
+        </div>
+
+        <div class="news-item">
+            <img src="./files/bao3.png" alt="News Image">
+            <h3>10 mẹo để tiết kiệm chi phí khi đi du lịch tự túc</h3>
+            <p>Áp dụng ngay những mẹo cực hay để chuyến đi của bạn vừa vui vừa tiết kiệm.</p>
+            <a href="#" class="read-btn">Đọc bài →</a>
+        </div>
+
+    </div>
+
+    
+</section>    </div>
+
+    
+
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <div class="foot">
+        <div class="footer-content">
+            
+            <div class="footlinks">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./register.html">Register</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footlinks">
+                <h4>Connect</h4>
+                <div class="social">
+                    <a href="https://www.facebook.com/mohd.rahil.blogger" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/mohdrahil101" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.twitter.com/mohdrahil101" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/mohdrahil101" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.youtube.com/techdollarz" target="_blank"><i class='bx bxl-youtube' ></i></a>
+                    <a href="https://www.mohdrahil.wordpress.com" target="_blank"><i class='bx bxl-wordpress' ></i></a>
+                    <a href="https://www.github.com/mohdrahil101" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="end">
+        <p>Copyright © 2022 Firstflight Travels All Rights Reserved.<br>Website developed by: Mohd. Rahil</p>
+    </div>
+</section>
+
+
+ 
+</body>
+</html>
