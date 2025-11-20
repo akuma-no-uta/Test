@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Destinations</title>
+    <title>Firstflight Travels</title>
     <link rel="icon" href="./files/logo.png">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   
 </head>
-<body class="location-body">
-       <nav style="background-color:white;">
+<body>
+
+<!-- Background Video & Header -->
+
+    <div class="banner">
+        <video src="../files/bgvid.mp4" type="video/mp4" autoplay muted loop></video>
+    
+    <!-- Header -->
+
+    <div class="content" id="home" style=""> 
+        <nav style="background-color:white;">
             <img src="./files/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
               <div class="search-box">
         <input type="text" placeholder="Search destinations or activities">
@@ -29,130 +39,395 @@
                 </li>
             </ul>
         </nav>
-<section class="location-section">
-    <div class="location-heading">
-        <h1>Discover The <span>Beautiful World</span></h1>
-    </div>
- <div class="location-detail" id="kashmir">
-    <h1>Kashmir</h1>
-    <div class="stars">
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-    </div>
-    <p>Heaven on Earth Kashmir is one of the most beautiful travel destinations to visit in North India. Nowhere in India you will behold the scenic landscapes, icy glaciers, pristine lakes and lofty mountains as beautiful as Kashmir. Serenity and Tranquility redefines itself from the ambiance of Kashmir. Be it summer, Winter or Monsoon, every season has its own charm in Kashmir. The numerous wonders of nature, culture, cuisines and rich history of Kashmir will elevate your travel experience in Incredible India.</p>
-    <div class="location-img">
-        <img src="./files/t1.jpg" alt="">
-    </div>
- </div>
+ 
+        <div class="title">
+            <h1>Your Destiny</h1>
+                        <h1>Your World</h1>
 
- <div class="location-detail" id="istanbul">
-    <h1>Istanbul</h1>
-    <div class="stars">
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star-half'></i></a>
+        <h2 class="search-title" style="color:white">Tìm Chuyến Du Lịch Hoàn Hảo Của Bạn</h2>
+<div class="search-container">
+        <form class="search-form">
+            <div class="form-group">
+                <label for="destination">Điểm Đến</label>
+                <input type="text" id="destination" class="form-control" placeholder="Bạn muốn đi đâu?">
+            </div>
+            
+            <div class="form-group">
+                <label for="check-in">Ngày Đi</label>
+                <input type="date" id="check-in" class="form-control" value="2023-02-05">
+            </div>
+            
+            <div class="form-group">
+                <label for="check-out">Ngày Về</label>
+                <input type="date" id="check-out" class="form-control" value="2023-03-14">
+            </div>
+            
+            <div class="form-group">
+                <label for="tour-type">Loại Tour</label>
+                <select id="tour-type" class="form-control">
+                    <option value="all">Tất Cả Các Tour</option>
+                    <option value="adventure">Du Lịch Mạo Hiểm</option>
+                    <option value="cultural">Du Lịch Văn Hóa</option>
+                    <option value="beach">Du Lịch Biển</option>
+                    <option value="family">Du Lịch Gia Đình</option>
+                    <option value="luxury">Du Lịch Cao Cấp</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="search-button">
+                <i class="fas fa-search"></i> Tìm Kiếm
+            </button>
+        </form>
     </div>
-    <p>Istanbul, that offers unique historical and cultural riches together has hosted many different civilizations with its geography spread over two continents. This unique city which is admired by its charming nature and the attractive atmosphere is also the symbol of dynamic and modern city life. Istanbul has a multicultural texture and a lively atmosphere that melts the past and future in a single pot which provides a sense of universal history at every step.</p>
-    <div class="location-img">
-        <img src="./files/t2.jpg" alt="">
+        </div>
+        </div>
     </div>
- </div>
 
- <div class="location-detail" id="paris">
-    <h1>Paris</h1>
-    <div class="stars">
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star-half'></i></a>
-    </div>
-    <p>Paris is a diverse and sophisticated city that appeals to the wealthy but can also be enjoyed on a budget. In addition to the Eiffel Tower, Paris has countless other gorgeous landmarks and monuments that add to the beauty of the spacious boulevards and their charming cafes. French cuisine is also world famous, and you can find some of the best of it in Paris. It has many stunning sights that showcase impressive architecture and design, and these places have become world-famous for their beauty.</p>
-    <div class="location-img">
-        <img src="./files/t3.jpg" alt="">
-    </div>
- </div>
+<!-- Services -->
 
- <div class="location-detail" id="bali">
-    <h1>Bali</h1>
-    <div class="stars">
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star-half'></i></a>
+<section class="container">
+    <div class="text">
+        <h2>Các lợi ích </h2>
     </div>
-    <p>Bali's beauty goes way deeper than its beautiful appearances. Matching Bali's natural wonders are its ever-growing choice of awesome accommodations. From lavish resorts to affordable hostels, developers go all-out to create outstanding, well-equipped and enjoyable places to stay. Private villas can even be rented at unbelievably affordable prices. Many resorts and hotels have splendid swimming and infinity pools, most of which are attractions in themselves.</p>
-    <div class="location-img">
-        <img src="./files/t4.jpg" alt="">
-    </div>
- </div>
+    <div class="rowitems">
+        <div class="container-box">
+        <div class="container-image">
+           <img src="./files/1a.jpg" alt="Flight Services">
+        </div>
+            <h4>Thuận Tiện</h4>
+            <p>Bạn được quyền tự mình quyết định chuyến đi,hủy hoặc đi tiếp là dựa vào bản thân bạn.</p>
+        </div>
+    
+        <div class="container-box">
+        <div class="container-image">
+           <img src="./files/2a.jpg" alt="Food Services">
+        </div>
+            <h4>Giá cả hợp lý</h4>
+            <p>Đi du lich mà lo về chi phí ? Đừng lo đã có các membership và discount,hãy rủ bạn bè của mình đi cùng!   </p>
+        </div>
 
- <div class="location-detail" id="dubai">
-    <h1>Dubai</h1>
-    <div class="stars">
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-    </div>
-    <p>Dubai is an ideal holiday destination for families, with theme parks, beaches, Friday brunches and more to keep everyone happy. The famous Burj Khalifa, the tallest building in the world, is well worth the entrance fee. Burj Al-Arab, often touted as the world's only 7-star hotel, remains underwhelming. Similarly, the Aquaventure Water Park at the Palms Atlantis Hotel is not to be missed. Jumeriah Beach Residence is well established as Dubai's most popular beachfront, and its close proximity to a whole host of restaurants, cafes and shops make it more than worthy of its status.</p>
-    <div class="location-img">
-        <img src="./files/t5.jpg" alt="">
-    </div>
- </div>
+        <div class="container-box">
+        <div class="container-image">
+            <img src="./files/3a.jpg" alt="Travel Services">
+        </div>
+            <h4>Chất lượng</h4>
+            <p>Chất lượng là trên hết đẩy sự thoải mái của bạn lên hàng đầu.</p>
+        </div>
 
- <div class="location-detail" id="geneva">
-    <h1>Geneva</h1>
-    <div class="stars">
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star-half'></i></a>
-    </div>
-    <p>The charming city of Geneva comes with a plethora of attractions and tremendous natural beauty that makes every traveler fall in love with it. However, because of this overabundance of attractions, it becomes difficult for the backpackers to determine where to go first. Most of them generally miss out on all the best things that this fantastic city has to offer. The capital of Switzerland and a beautiful lakeside city, Geneva is home to many international organisations like the UN.</p>
-    <div class="location-img">
-        <img src="./files/t6.jpg" alt="">
-    </div>
- </div>
+        <div class="container-box">
+        <div class="container-image">
+            <img src="./files/4a.jpg" alt="Hotel Services">
+        </div>
+            <h4>Sự hỗ trợ</h4>
+            <p>Không biết bắt đầu từ đâu ? Đã có hệ thống của chúng tôi lo.</p>
+        </div>
 
- <div class="location-detail" id="port-blair">
-    <h1>Port Blair</h1>
-    <div class="stars">
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star-half'></i></a>
     </div>
-    <p>Port Blair is an alluring destination for tourists as it includes a host of attractive locales. There are shimmering but clean beaches, beaches that defy the ferocity of sea and let tourists swim leisurely, relics of colonial power and oppression, many must-go museums, libraries, coral reefs, and more.</p>
-    <div class="location-img">
-        <img src="./files/t7.jpg" alt="">
-    </div>
- </div>
 
- <div class="location-detail" id="rome">
-    <h1>Rome</h1>
-    <div class="stars">
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
-        <a href="#"><i class='bx bxs-star'></i></a>
     </div>
-    <p>The capital of one of the most powerful ancient empires in the world, Rome is a fascinating place that has inspired people to visit for millennia. With incredible works of art, a leisurely pace of life and world-renowned cuisine, the Eternal City is worth a visit at least once, though it would take a lifetime to see all it has to offer.</p>
-    <div class="location-img">
-        <img src="./files/t8.jpg" alt="">
-    </div>
- </div>
-    </section>
-    <!-- Footer -->
 
+</section>
+
+<!-- Locations -->
+
+<section class="locations" id="locations">
+    <div class="package-title">
+        <h2>Các điểm du lịch đang trending</h2>
+    </div>
+
+    <div style="display:flex; gap:25px; flex-wrap:wrap; align-items:center;">
+
+        <a href="./locations.html#kashmir" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l1.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">India</h5>
+                <p style="margin:0;">Kashmir</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#istanbul" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l2.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">Turkey</h5>
+                <p style="margin:0;">Istanbul</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#paris" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l3.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">France</h5>
+                <p style="margin:0;">Paris</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#bali" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l4.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">Indonesia</h5>
+                <p style="margin:0;">Bali</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#dubai" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l5.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">UAE</h5>
+                <p style="margin:0;">Dubai</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#geneva" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l6.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">Switzerland</h5>
+                <p style="margin:0;">Geneva</p>
+            </div>
+        </a>
+
+        <a href="./locations.html#port-blair" target="_blank" style="text-decoration:none; color:black;">
+            <div style="text-align:center; width:140px;">
+                <img src="./files/l7.jpg" 
+                     style="width:120px; height:120px; border-radius:50%; object-fit:cover;">
+                <h5 style="margin:8px 0 0 0;">Andaman</h5>
+                <p style="margin:0;">Port Blair</p>
+            </div>
+        </a>
+
+      
+    </div>
+</section>
+
+
+<!-- Packages -->
+
+<section class="top-trending">
+    <div class="tt-header">
+        <h2>Top Trending</h2>
+        
+    </div>
+
+    <div class="tt-list">
+
+        <div class="tt-card">
+            <img src="./files/l1.jpg" alt="">
+            <div class="tt-info">
+                <span class="tt-location">Ha Noi, VietNam</span>
+                <h3 class="tt-title">The Grand K</h3>
+                <span class="tt-rating">4.8 (243)</span>
+
+                <div class="tt-bottom">
+                    <span class="tt-days">4 days</span>
+                    <span class="tt-price">From $189.25</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tt-card">
+            <img src="./files/l2.jpg" alt="">
+            <div class="tt-info">
+                <span class="tt-location">Da Nang, VietNam</span>
+                <h3 class="tt-title">The Canvas</h3>
+                <span class="tt-rating">4.8 (243)</span>
+
+                <div class="tt-bottom">
+                    <span class="tt-days">4 days</span>
+                    <span class="tt-price">From $225</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tt-card">
+            <img src="./files/l3.jpg" alt="">
+            <div class="tt-info">
+                <span class="tt-location">Quang Binh,VietNam</span>
+                <h3 class="tt-title">Hang Son Doong</h3>
+                <span class="tt-rating">4.8 (243)</span>
+
+                <div class="tt-bottom">
+                    <span class="tt-days">4 days</span>
+                    <span class="tt-price">From $943</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tt-card">
+            <img src="./files/l4.jpg" alt="">
+            <div class="tt-info">
+                <span class="tt-location">Hoi An,VietNam</span>
+                <h3 class="tt-title">The Grand Sunrise</h3>
+                <span class="tt-rating">4.8 (243)</span>
+
+                <div class="tt-bottom">
+                    <span class="tt-days">4 days</span>
+                    <span class="tt-price">From $771</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Sale Banner -->
+<section class="sale-banner">
+    <div class="sale-content">
+        <h2> SALE DU LỊCH CỰC SỐC </h2>
+        <p>Ưu đãi đến <span>30%</span> cho các tour nổi bật tháng này!</p>
+        <a href="#package" class="sale-btn">Xem ngay</a>
+    </div>
+</section>
+<section class="activities">
+    <h2>Những thứ nên làm</h2>
+    <p class="act-desc">Khám phá các hoạt động thú vị và trải nghiệm độc đáo dành cho bạn.</p>
+
+    <div class="activity-grid">
+
+        <div class="activity-item">
+            <div class="act-img-wrap">
+                <img src="./files/cheothuyen.jpg" alt="Chèo thuyền">
+            </div>
+            <h3>Chèo thuyền</h3>
+        </div>
+
+        <div class="activity-item">
+            <div class="act-img-wrap">
+                <img src="./files/leonui.jpg" alt="Leo núi">
+            </div>
+            <h3>Leo núi</h3>
+        </div>
+
+        <div class="activity-item">
+            <div class="act-img-wrap">
+                <img src="./files/truottuyet.jpg" alt="Trượt tuyết">
+            </div>
+            <h3>Trượt tuyết</h3>
+        </div>
+
+        <div class="activity-item">
+            <div class="act-img-wrap">
+                <img src="./files/anuong.jpg" alt="Ẩm thực">
+            </div>
+            <h3>Khám phá ẩm thực</h3>
+        </div>
+
+        <div class="activity-item">
+            <div class="act-img-wrap">
+                <img src="./files/chupanh.jpg" alt="Chụp ảnh">
+            </div>
+            <h3>Chụp ảnh sống ảo</h3>
+        </div>
+
+    </div>
+</section>
+
+<section class="reviews">
+    <h2 class="review-title">Review từ khách hàng</h2>
+
+    <div class="slider">
+
+        <!-- Radio Buttons -->
+        <input type="radio" name="review" id="r1" checked>
+        <input type="radio" name="review" id="r2">
+        <input type="radio" name="review" id="r3">
+
+        <!-- Slides -->
+        <div class="slides">
+
+            <div class="review-item" id="rev1">
+                <img src="./files/khach.png" class="review-avatar">
+                <h3>Nguyễn Hoàng Anh</h3>
+                <p class="review-text">“Dịch vụ tuyệt vời! Tổ chức tour chuyên nghiệp, rất đáng tiền.”</p>
+                <div class="rating">★★★★★</div>
+            </div>
+
+            <div class="review-item" id="rev2">
+                <img src="./files/khach.png" class="review-avatar">
+                <h3>Trần Gia Huy</h3>
+                <p class="review-text">“Tour hợp túi tiền, chăm sóc khách hàng rất tốt.”</p>
+                <div class="rating">★★★★☆</div>
+            </div>
+
+            <div class="review-item" id="rev3">
+                <img src="./files/khach.png" class="review-avatar">
+                <h3>Lê Khánh Linh</h3>
+                <p class="review-text">“Chuyến đi châu Âu tuyệt đẹp! Mình sẽ quay lại.”</p>
+                <div class="rating">★★★★★</div>
+            </div>
+
+        </div>
+
+        <!-- Pagination Dashes -->
+        <div class="navigation">
+            <label for="r1">—</label>
+            <label for="r2">—</label>
+            <label for="r3">—</label>
+        </div>
+
+    </div>
+</section>
+<section class="promo-banner">
+    <div class="promo-overlay">
+        <div class="promo-container">
+            <div class="promo-text">
+                <h2>Get <span>5% off</span> your 1st app booking</h2>
+                <p>Booking's better on the app. Use promo code <strong>"TDTU"</strong> to save!</p>
+                <div class="promo-form">
+                    <input type="email" placeholder="Email của bạn" class="promo-input">
+                    <button class="promo-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+
+<section class="newsletter">
+    <div class="newstext">
+<section class="newsletter">
+    <div class="newstext">
+        <h2>Báo Du lịch</h2>
+        <p>Cập nhật những bài viết mới nhất về xu hướng và điểm đến hấp dẫn.</p>
+    </div>
+
+    <div class="news-list">
+
+        <div class="news-item">
+            <img src="./files/bao1.png" alt="News Image">
+            <h3>Top 5 bãi biển đẹp nhất châu Á năm 2024</h3>
+            <p>Khám phá những bãi biển tuyệt đẹp, nước trong xanh, cát trắng trải dài phù hợp cho mùa hè sắp tới.</p>
+            <a href="#" class="read-btn">Đọc bài →</a>
+        </div>
+
+        <div class="news-item">
+            <img src="./files/bao2.png" alt="News Image">
+            <h3>Những địa điểm du lịch mùa đông hot nhất</h3>
+            <p>Nếu bạn thích không khí lạnh, đây là những điểm đến lý tưởng trong mùa đông mà bạn không nên bỏ lỡ.</p>
+            <a href="#" class="read-btn">Đọc bài →</a>
+        </div>
+
+        <div class="news-item">
+            <img src="./files/bao3.png" alt="News Image">
+            <h3>10 mẹo để tiết kiệm chi phí khi đi du lịch tự túc</h3>
+            <p>Áp dụng ngay những mẹo cực hay để chuyến đi của bạn vừa vui vừa tiết kiệm.</p>
+            <a href="#" class="read-btn">Đọc bài →</a>
+        </div>
+
+    </div>
+
+    
+</section>    </div>
+
+    
+
+</section>
+
+<!-- Footer -->
 
 <section class="footer" style="background-color: antiquewhite; color: black">
   <div class="foot">
@@ -231,10 +506,12 @@
 
   <!-- Footer Bottom -->
   <div class="end">
-    <p style="color: black">Copyright © 2022 Firstflight Travels. All Rights Reserved.<br>
+    <p style="color: black">Copyri ght © 2022 Firstflight Travels. All Rights Reserved.<br>
     Website developed by: Mohd. Rahil</p>
   
   </div>
 </section>
+
+ 
 </body>
 </html>
