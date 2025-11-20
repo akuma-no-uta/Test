@@ -844,7 +844,7 @@ nav ul li a{
 
 .footlinks ul li a{
     font-size: 17px;
-    color: #dddddd;
+    color: black;
     display: block;
     transition: ease 0.30s;
 }
@@ -1234,4 +1234,310 @@ nav ul li a{
 .tt-price {
     font-weight: 600;
     color: #0b1d4a;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+.promo-overlay {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 50px 0;
+}
+
+.promo-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.promo-text h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.promo-text h2 span {
+    color: #3ecf8e;
+    font-weight: 800;
+}
+
+.promo-text p {
+    color: #eaeaea;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.promo-form {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.promo-input {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.promo-btn {
+    background-color: #3ecf8e;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.promo-btn:hover {
+    background-color: #2bb574;
+}
+
+/* ======================
+   NEWSLETTER (TIN TỨC)
+   ====================== */
+
+.newsletter {
+    background: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.newstext h2 {
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+}
+
+.newstext p {
+    color: #444;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.news-list {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    background: #fff;
+    width: 300px;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 26px rgba(0,0,0,0.12);
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.news-item h3 {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.news-item p {
+    margin-top: 8px;
+    color: #555;
+    font-size: 15px;
+}
+
+.read-btn {
+    display: inline-block;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #3ecf8e;
+    transition: 0.3s;
+}
+
+.read-btn:hover {
+    color: #2bb574;
+}
+
+/* ======================
+   FOOTER
+   ====================== */
+
+.footer {
+    background-color: antiquewhite;
+    padding: 50px 20px;
+    color: black;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.footlinks h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.footlinks ul {
+    list-style: none;
+    margin-top: 10px;
+    color:black;
+}
+
+.footlinks ul li {
+    margin: 6px 0;
+    color: #333;
+}
+
+.footlinks a {
+    color: #000;
+    font-weight: 500;
+}
+
+.footlinks a:hover {
+    color: #3ecf8e;
+}
+
+.footlinks p {
+    color: black;
+}
+
+.footlinks form input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.footlinks form button {
+    background: #3ecf8e;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footlinks form button:hover {
+    background: #2bb574;
+}
+
+.social a {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    color: #3ecf8e;
+}
+
+.end {
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.end p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+/* ======================
+   ACTIVITIES SECTION
+   ====================== */
+
+.activities {
+    padding: 60px 20px;
+    background: #fdfdfd;
+    text-align: center;
+}
+
+.activities h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+
+.act-desc {
+    color: #444;
+    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.activity-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.activity-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 26px rgba(0,0,0,0.15);
+}
+
+/* Khung cố định cho hình */
+.act-img-wrap {
+    width: 100%;
+    height: 180px;                    /* khung cố định, hình sẽ tự co giãn */
+    overflow: hidden;
+    border-radius: 14px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hình đủ loại size đều fit */
+.act-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;                /* giữ tỉ lệ, lấp đầy khung */
+    transition: 0.4s ease-in-out;
+}
+
+.activity-item:hover img {
+    transform: scale(1.08);
+}
+
+.activity-item h3 {
+    margin-top: 12px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
 }
