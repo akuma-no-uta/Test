@@ -13,6 +13,137 @@
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
+<style>nav{
+
+    justify-content:space-between;
+    padding:18px 50px;
+    box-shadow:0 2px 15px rgba(0,0,0,0.08);
+    position:sticky;
+    top:0;
+    z-index:99;
+}
+
+
+/* PAGE HEADING */
+.location-section{
+    width:100%;
+    padding:40px 70px;
+}
+
+.location-heading h1{
+    font-size:38px;
+    text-align:center;
+    margin-bottom:50px;
+    font-weight:700;
+}
+
+.location-heading span{
+    color:#0984e3;
+}
+
+/* DESTINATION ITEM */
+.location-detail{
+    background:#fff;
+    padding:35px;
+    margin-bottom:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.location-detail:hover{
+    transform:translateY(-5px);
+}
+
+.location-detail h1{
+    font-size:30px;
+    margin-bottom:10px;
+    color:#2d3436;
+}
+
+.stars i{
+    color:#f1c40f;
+    font-size:22px;
+}
+
+.location-detail p{
+    margin:15px 0 25px;
+    text-align:justify;
+    color:#555;
+    line-height:1.6;
+    font-size:15px;
+}
+
+/* IMAGE BOX */
+.location-img{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.location-img img{
+    width:100%;
+    max-width:850px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+.footer{
+    width:100%;
+    background:#fff0d6;
+    margin-top:60px;
+    padding:60px 0 20px;
+}
+
+.footer-content{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:35px;
+    padding:0 60px;
+}
+
+.footlinks h4{
+    font-size:18px;
+    margin-bottom:15px;
+    color:#333;
+}
+
+.footlinks ul{
+    list-style:none;
+}
+
+.footlinks ul li{
+    margin-bottom:8px;
+}
+
+.footlinks a{
+    color:#333;
+    text-decoration:none;
+    transition:.2s;
+}
+
+.footlinks a:hover{
+    color:#0984e3;
+}
+
+.social a{
+    font-size:25px;
+    margin-right:10px;
+    color:#333;
+}
+
+.social a:hover{
+    color:#0984e3;
+}
+
+.end{
+    text-align:center;
+    margin-top:40px;
+    padding-top:15px;
+    border-top:1px solid #ccc;
+}
+</style></style>
 <body class="location-body">
        <nav style="background-color:white;">
             <img src="./files/logo.png" class="logo" alt="Logo" title="FirstFlight Travels">
@@ -31,7 +162,7 @@
         </nav>
 <section class="location-section">
     <div class="location-heading">
-        <h1>Discover The <span>Beautiful World</span></h1>
+        <h1 style="color: black;">Discover The <span style="color:#2b8eff">Beautiful World</span></h1>
     </div>
  <div class="location-detail" id="kashmir">
     <h1>Kashmir</h1>
