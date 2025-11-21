@@ -1110,11 +1110,9 @@ nav ul li a{
 
 
 .location-body{
-.location-body{
     background: linear-gradient(135deg, #d3e9ff 0%, #f6f9ff 100%);
     color: white;
-}    color: white;
-}
+}    
 
 .location-section{
     padding: 110px;
