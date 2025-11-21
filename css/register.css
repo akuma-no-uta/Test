@@ -1,0 +1,101 @@
+/* FORM WRAPPER – căn giữa + nền riêng */
+.registration {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    background: linear-gradient(135deg, #d3e9ff 0%, #f6f9ff 100%);
+}
+
+/* FORM BOX */
+.register-form {
+    background: rgba(255, 255, 255, 0.9);
+    width: 520px;
+    padding: 40px 45px;
+    border-radius: 22px;
+
+    /* đổ bóng mềm sang 2 bên */
+
+    /* hiệu ứng animation khi hiện */
+    animation: fadeIn 0.6s ease;
+    backdrop-filter: blur(6px);
+}
+
+/* FORM TITLE */
+.register-form h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 28px;
+    font-weight: 700;
+    color: #0d2d55;
+}
+
+/* INPUT CHUNG */
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="tel"],
+.register-form input[type="number"],
+.register-form input[type="datetime-local"] {
+    width: 100%;
+    padding: 14px 15px;
+    margin-bottom: 18px;
+
+    /* bo góc + đường viền đẹp */
+    border-radius: 12px;
+    border: 1px solid #b9c3d5;
+    background: #ffffff;
+
+    font-size: 15px;
+    color: #333;
+
+    transition: 0.25s ease;
+}
+
+/* HIỆU ỨNG FOCUS */
+.register-form input:focus {
+    border-color: #2b8eff;
+    box-shadow: 0 0 0 3px rgba(45, 137, 255, 0.25);
+    outline: none;
+}
+
+/* LABEL TITLE */
+.register-form h4 {
+    margin: 7px 0 6px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #003366;
+}
+
+/* RADIO + CHECKBOX CĂN ĐỀU */
+.register-form input[type="radio"],
+.register-form input[type="checkbox"] {
+    margin-right: 7px;
+    transform: scale(1.1);
+}
+
+/* SUBMIT BUTTON */
+.submitbtn {
+    width: 100%;
+    padding: 15px;
+    background: #2b8eff;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    margin-top: 12px;
+
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submitbtn:hover {
+    background: #0f63d1;
+    transform: translateY(-2px);
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
